@@ -1,0 +1,155 @@
+*{
+    font-family: 'Lexend Deca';
+    color: #FAFAFA;
+    margin: 0;
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.video_background{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -5;
+}
+
+.video_background video {
+    min-width: 100vw;
+}
+
+.blur_effect {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(2, 32, 64, 0.7);
+    filter: blur(10px);
+    width: 100%;
+    z-index: -5;
+}
+
+.main_options {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    align-content: center;
+    justify-items: center;
+}
+
+.logo_web {
+    width: 100%;
+}
+
+
+.primary_buttom_background{
+    background-image: url(./img/company_buttom_image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.3rem;
+    min-width: 35rem;
+    height: 8rem;
+}
+
+.primary_buttom_background2{
+    background-image: url(./img/car_buttom_image.png);
+}
+
+.primary_buttom_background3 {
+    background-image: url(./img/driver_buttom_image.png);
+}
+
+.primary_buttom_background4 {
+    background-image: url(./img/user_buttom_image.png);
+}
+
+.primary_buttom {
+    background: rgb(0,28,57);
+    background: linear-gradient(90deg, rgba(0,28,57,1) 0%, rgba(0, 28, 57, 0.973) 53%, rgba(0,28,57,0.3617822128851541) 100%);
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    border:1px solid #ffffff;
+    border-radius: 0.3rem;
+    height: 6rem;
+}
+
+.buttoms_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+}
+
+.menu_items {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-weight: 200;
+    justify-items: center;
+    margin-left: 20%;
+    list-style: none;
+}
+
+.menu {
+    width: 100%;
+    padding: 1.3rem;
+    background: #011429;
+    margin: auto;
+}
+
+.whatsapp{
+    margin-top: 5rem;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 1rem;
+}
+
+.whatsapp_buttom{
+    background-color: rgba(146, 255, 107, 0.05);
+    margin: 0.2rem;
+    padding: 1rem 0.3rem;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    border:1px solid #92ff6b;
+    border-radius: 0.3rem;
+    align-items: center;
+    justify-items: center;
+    width: 27rem;
+}
+
+.empresas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: left;
+    list-style-image: url(./img/arrow.png);
+    margin: 3rem;
+}
+
+.pc_web img {
+    width: 100%;
+}
+
+.empresas h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.empresas li {
+    font-size: 2rem;
+    line-height: 3rem;
+}

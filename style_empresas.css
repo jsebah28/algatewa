@@ -1,0 +1,35 @@
+html {
+    background-image: url(./img/background_empresas.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.vouchers, h1{
+    font-size: 1rem;
+}
+
+.vouchers, ul {
+    list-style-image: url(./img/arrow.png);
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.pc{
+    position: relative;
+    left: -80;
+    width: 150%;
+}
+
+
+.whatsapp_buttom{
+    background-color: rgba(146, 255, 107, 0.05);
+    margin: 0.2rem;
+    padding: 1rem 0.3rem;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    border:1px solid #92ff6b;
+    border-radius: 0.3rem;
+    align-items: center;
+    justify-items: center;
+}
+

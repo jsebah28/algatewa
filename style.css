@@ -1,0 +1,148 @@
+*{
+    font-family: 'Lexend Deca';
+    color: #FAFAFA;
+    margin: 0;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    
+}
+
+h4{
+    font-weight: 300;
+}
+
+h1{
+    font-weight: 600;
+}
+
+html {
+    background-color: #071B30;
+}
+
+.main-options{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.content-more{
+    width: 100%;
+    height: 170px;
+    margin-bottom: 1rem;
+    display: grid;
+    align-content: center;
+    padding: 0.5rem;
+    row-gap: 0.5rem;
+}
+
+.content-more:nth-child(1){
+    background-image: url(./img/vales_digitales.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-more:nth-child(2){
+    background-image: url(./img/servicio_especial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-more:nth-child(3){
+    background-image: url(./img/movil_2000.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-options {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+}
+
+.primary-buttom {
+    background-color: #056CD8;
+    width: fit-content;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    box-shadow:0px 10px 50px 5px #056CD8;
+}
+
+.primary-button, a:hover {
+    background-color: #2082eb;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    background-color: rgba(7, 27, 48, 0.5);
+    backdrop-filter: blur(40px);
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.menu ul li { 
+    margin-bottom: 4rem;
+    list-style: none;
+}
+
+.menu ul{ 
+    margin-top: 6rem;
+}
+
+.close_window {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: end;
+    padding: 1rem;
+    
+}
+
+.menu_icon {
+    position: absolute;
+    margin: 1rem;
+}
+
+.ask_cab {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    background-color: rgba(7, 27, 48, 0.5);
+    backdrop-filter: blur(40px);
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.ask_buttom{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0.2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0.3rem;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    border:1px solid #ffffff;
+    border-radius: 0.3rem;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+
