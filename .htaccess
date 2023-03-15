@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^empresas/?$ empresas.html
+RewriteRule ^empresas/?$ empresas_web_version.html
